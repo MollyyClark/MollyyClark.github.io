@@ -1,0 +1,20 @@
+#main{
+    background-color: lightpink;
+    padding:30px;
+}
+#content{
+    background-color: palevioletred;
+    Border: 5px solid rgb(201, 111, 111);
+    color: white;
+    margin: 20px, 0px;
+    padding: 20px;
+}
+#content > div {
+   margin: 16px, 0px;
+}
+#quote{
+    padding-left: 36px;
+}
+#quote_citation{
+    padding-left: 26px;
+}

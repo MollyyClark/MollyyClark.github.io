@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Intermediate Examples</title>
+    </head>
+    <body>
+        <!-- unordered list -->
+        <ui>
+            <li>Soup</li>
+            <li>cheese</li>
+            <li>pretzels</li>
+            <li>chips</li>
+            <li>Milk</li>
+        </ui>
+
+        <ol>
+            <li>pink</li>
+            <li>Blue</li>
+            <li>purple</li>
+            <li>green</li>
+        </ol>
+
+        <!-- web image -->
+        <img src="https://vitapet.com/media/sz1czkya/benefits-of-getting-a-puppy-900x600.jpg?anchor=center&mode=crop&width=1240&rnd=132503927246630000">
+
+    </body>
+</html>

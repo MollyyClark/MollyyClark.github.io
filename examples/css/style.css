@@ -1,0 +1,24 @@
+#div_1{
+    border: 5px solid red;
+}
+#div_2{
+    border: 3px dashed pink;
+}
+#div_3{
+    border: 4px dotted hotpink;
+    padding: 10px
+}
+#div_4{
+    border: 6px solid purple;
+    padding: 10px;
+    margin: 24px;
+}
+#div_5{
+    background-color:aqua;
+    color:white;
+}
+#div_6{
+    border: 6px solid yellow;
+    padding-left: 6px;
+    margin: 60px;
+}
