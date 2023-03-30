@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: sans-serif;
+    background-color: lightyellow;
 }
 
 header{
@@ -14,6 +15,10 @@ header{
         color: white;
     }
 
+    h3{
+        padding-left: 22px;
+        color: greenyellow;
+    }
 
 nav a{
     color: white;
@@ -29,6 +34,16 @@ nav a{
 footer{
     background-color: greenyellow;
     padding: 10px;
+    text-align: center;
+    font-size: 5px;
     
-    
+}
+
+#image_container{
+    float: left;
+    padding-right: 24px;
+}
+
+#clear{
+    clear:both;
 }
