@@ -1,0 +1,13 @@
+#container{
+    background-color: aqua;
+    margin: 200px;
+    height: 400px;
+    position: relative;
+}
+
+#inner_content{
+    background-color: deeppink;
+    position:absolute;
+    left: 30px;
+    bottom: 90px;
+}
