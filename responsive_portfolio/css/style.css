@@ -66,31 +66,35 @@ footer a:hover {
         "footer_area footer_area footer_area";
 }
 
-#section{
+section {
     border: 4px solid indigo;
 }
 
-#nav{
+nav {
     grid-area: nav_area;
 }
 
-#hero{
+#hero {
     grid-area: hero_area;
 }
 
-#three_cards{
+#three_cards {
     grid-area: three_cards_area;
 }
 
-#carousel_conatiner{
+#carousel_container {
     grid-area: carousel_container;
 }
 
-#gallery-container{
+#gallery_container {
+    grid-area: gallery_area;
+}
+
+#two_cards {
     grid-area: two_cards_area;
 }
 
-#footer{
+footer {
     grid-area: footer_area;
 }
 
@@ -171,5 +175,19 @@ footer ul {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 @media screen and (max-width: 800px) {
+    #site-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav_area"
+        "hero_area"
+        "three_cards_area"
+        "carousel_area"
+        "gallery_area"
+        "two_cards_area"
+        "footer_area";
+    }
+}
 
+nav{
+    flex-direction: column;
 }
