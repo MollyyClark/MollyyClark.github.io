@@ -1,0 +1,16 @@
+#hero_1{
+    background-image: url("../images/hero.background.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 3px pink;
+}
+
+#hero_1 h2 h3{
+   font-size: 50px;
+}
