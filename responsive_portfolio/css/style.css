@@ -45,7 +45,7 @@ footer a {
 }
 
 nav a:hover,
-  ''''''''''''"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'     footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 
@@ -164,7 +164,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../images/abstractBackground.jpg);
+    background-image: url(../images/hero.background.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -176,8 +176,8 @@ footer ul {
 #hero a,
 .card a {
     background-color: white;
-    color: teal;
-    border: 2px solid teal;
+    color: rgb(28, 216, 216);
+    border: 2px solid rgb(28, 216, 216);
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -195,7 +195,7 @@ footer ul {
 ****************************************************************************/
 .card{
     border: 2px solid deeppink;
-color: teal;
+color: rgb(28, 216, 216);
 margin: 48px 24px 24px;
 padding: 12px 12px 24px;
 text-align: center;
