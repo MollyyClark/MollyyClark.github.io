@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+ul :hover{
+    text-decoration: underline;
+}
+nav{
+    background-color:black;
+}
+
+body{
+    margin: 0px;
+}
+
+ul li{
+    padding: 12px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#home{
+    margin-right: auto;
+}
+
+.dropdown_container {
+    position: relative;
+}
+.dropdown_menu{
+    background-color:#e1a177;
+    position: absolute;
+    flex-direction: column;
+    width: 200;
+    left: 0px;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+        transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        top 0.5s
+}
+.dropdown_container:hover .dropdown_menu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%
+}
+
+img{
+    width: 50px;
+}
+
+#hero{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/nature-product-backdrop-farm-sunlight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+}
+
+#hero a {
+    background-color:whitesmoke;
+    color: #e1a177;
+    border: 2px solid #e1a177;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero a:hover,
+.card a:hover{
+    transform: scale(1.1);
+}
+
+#hero_2{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/beautiful-retro-nature-with-field.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+.card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#two_cards{
+    display: flex;
+}
+
+#two_cards .card{
+    flex: 1;
+}
+
+#two_cards #carouselExampleIndicators{
+    flex: 2;
+    margin-top: 65px;
+    margin-right: 50px;
+}
+
+.btn.btn-primary{
+    background-color: #e1a177;
+    border-color: #e1a177;
+}
+
+footer a {
+    color: #e1a177;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#three_cards {
+    display: flex;
+}
+
+body{
+    background-color: rgb(252, 245, 234);
+}
+
+.card{
+border: 2px solid #e1a177;
+background-color:  rgb(252, 245, 234);
+color: black;
+margin: 48px 24px 24px;
+padding: 12px 12px 24px;
+text-align: center;
+box-shadow: 4px 4px 8px 0px grey;
+flex:1;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 36px 24px 0px;
+}
+
+@media screen and (max-width: 768px){
+  #three_cards{
+    flex-direction: column;
+  }
+
+  #nav,
+  ul{
+    flex-direction: column;
+  }
+
+  #two_cards{
+    flex-direction: column;
+  }
+
+  #two_cards #carouselExampleIndicators{
+    margin: 50px;
+  }
+}
+
+
+
+
