@@ -72,6 +72,9 @@ img{
     background-size: cover;
     background-attachment: fixed;
     color:black;
+    position: relative;
+    z-index: -10;
+    overflow-y: hidden;
 }
 
 #hero a {
@@ -86,6 +89,13 @@ img{
     transition: transform 0.25s;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+#hero #carousel{
+    position: absolute;
+    top: 0px;
+    width:100%;
+    z-index: -1;
 }
 
 #hero a:hover,
@@ -108,6 +118,7 @@ img{
 
 h1{
     font-family: 'Lobster', cursive;
+    color:whitesmoke;
 }
 
 h4{
@@ -130,11 +141,6 @@ h4{
     flex: 1;
 }
 
-#two_cards #carouselExampleIndicators{
-    flex: 2;
-    margin-top: 65px;
-    margin-right: 50px;
-}
 
 .btn.btn-primary{
     background-color: #e1a177;
@@ -179,6 +185,13 @@ align-items: center;
 margin: 36px 24px 0px;
 }
 
+#the_farm{
+    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid 2px black;
+    padding: 30px;
+}
+
 @media screen and (max-width: 768px){
   #three_cards{
     flex-direction: column;
@@ -195,6 +208,10 @@ margin: 36px 24px 0px;
 
   #two_cards #carouselExampleIndicators{
     margin: 50px;
+  }
+
+  #carousel{
+    display: none;
   }
 }
 
