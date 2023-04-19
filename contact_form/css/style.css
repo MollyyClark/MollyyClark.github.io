@@ -1,0 +1,49 @@
+#grid_container{
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ". header_area ."
+        ". main_area ." ;
+}
+
+header{
+    grid-area: header_area;
+    text-align: center;
+}
+
+main{
+    grid-area: main_area;
+    text-align: center;
+}
+
+body{
+    background-color:#fafafa;
+}
+
+form{
+    background-color: white;
+    border: 2px solid #cccc;
+    padding: 36px;
+}
+
+.text_input{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.text_input label{
+    text-align: right;
+    margin: 5px;
+}
+
+.text_input label,
+.text_input input{
+    flex: 1;
+}
+
+.form_class{
+    margin: 12px;
+}
+
