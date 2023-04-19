@@ -14,7 +14,7 @@
                 <h6> Have a question or ready to book? fill out the form and let us know!</h6>
             </header>
             <main>
-                <form>
+                <form method="POST" action="https://getform.io/f/e99925cc-0678-4c55-8311-c5530e450183">
                     <div>
                         <label for="how_can_we_help_id">
                             How can we help? 
@@ -27,46 +27,65 @@
                     </div>
 
                     <div class="text_input">
-                        <label for="first_name_id">Full Name:</label>
-                        <input type="text" id="first_name_id" name="first_name">
+                        <label for="full_name_id">Full Name:</label>
+                        <input required
+                        minlength="6"
+                        maxlength="20"
+                        placeholder="Jon Doe"
+                        type="text" 
+                        id="full_name_id" 
+                        name="full_name">
                     </div>
                     <div class="text_input">
-                        <label for="first_name_id">Phone #</label>
-                        <input type="text" id="first_name_id" name="first_name">
+                        <label for="phone_number">Phone #</label>
+                        <input required
+                        minlength="10"
+                        maxlength="16"
+                        placeholder="(222)-333-4455"
+                        type="text" 
+                        id="phone_number" 
+                        name="phone_number">
                     </div>
                     <div class="text_input">
                         <label> Email</label>
-                        <input type="email" name="email_adress">
+                        <input type="email" name="email_address" required
+                        minlength="12"
+                        maxlength="30"
+                        placeholder="jondoe123@gmail.com"
+                        type="text" 
+                        id="email_id" 
+                        name="email_address">
+                        
                     </div>
                     <h3>What type of session are you interested in?</h3>
                     <p>Ignore if doesnt apply.</p>
 
                     <div class="form_class">
-                        <input type="radio" id="wedding" name="program" value="Wedding">
+                        <input type="radio" id="wedding" name="sessiontype" value="Wedding">
                         <label for="wedding">Wedding</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="engagement" name="program" value="engagement">
+                        <input type="radio" id="engagement" name="sessiontype" value="engagement">
                         <label for="engagement">Engagement/Couples</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="option" name="newborn" value="newborn">
+                        <input type="radio" id="newborn" name="sessiontype" value="newborn">
                         <label for="newborn">Newborn</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="option" name="program" value="senior">
+                        <input type="radio" id="senior" name="sessiontype" value="senior">
                         <label for="senior">Senior</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="option" name="program" value="maternity">
+                        <input type="radio" id="maternity" name="sessiontype" value="maternity">
                         <label for="maternity">Maternity</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="option" name="program" value="milestone">
+                        <input type="radio" id="milestones" name="sessiontype" value="milestone">
                         <label for="milestone">Milestone</label>
                     </div>
                     <div class="form_class">
-                        <input type="radio" id="option" name="other" value="other">
+                        <input type="radio" id="other" name="sessiontype" value="other">
                         <label for="other">Other</label>
                     </div>
 
@@ -74,6 +93,10 @@
                         <label for="date_id">Preffered session date</label>
                         <input type="date" id="date_id" name="session_date">
                     </div>
+
+                
+                    <input type="submit" value="Send">
+                
                 </form>
             </main>
        </section>
