@@ -19,20 +19,20 @@
                         <h1>Create a new account</h1>
                         <h5> Its quick and easy </h5>
                     </div>
-
+                    <hr>
                     <div class="text_input">
-                        <label for="first_name_id">
+                   
                         <input required
-                        minlength="6"
+                        minlength="2"
                         maxlength="20"
                         placeholder="First name"
                         type="text" 
                         id="full_name_id" 
                         name="full_name">
         
-                        <label for="last_name">
+               
                         <input required
-                        minlength="10"
+                        minlength="3"
                         maxlength="16"
                         placeholder="Last name"
                         type="text" 
@@ -41,7 +41,7 @@
                     </div>
                     <div class="text_input">
                         <input type="email" name="email_address" required
-                        minlength="12"
+                        minlength="10"
                         maxlength="30"
                         placeholder="Mobile number or email"
                         type="text" 
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="text_input">
-                        <label for="new_password">
+                       
                             <input required
                             minlength="8"
                             maxlength="25"
@@ -140,19 +140,21 @@
                        </div>
                     </div>
 
-                    <div>
+                    <div class="paragraph">
                         <p>
-                            People who use our service may have uploaded your contact information to Facebook. Learn more.
+                            People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a>
                         </p>
                     </div>
 
-                    <div>
-                        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                    <div class="paragraph">
+                        By clicking Sign Up, you agree to our <a href="#">Terms, Privacy Policy</a> and <a href="#">Cookies</a> <a href="#">Policy.</a> may receive SMS Notifications from us and can opt out any time.
                     </div>
-                    
 
-                
                     <input type="submit" value="Sign Up">
+
+                    <div id="account">
+                        <a href="#"><b>Already have an account?<b></b></a>
+                        </div>
                 
                 </form>
             </main>
