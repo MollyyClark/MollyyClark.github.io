@@ -85,6 +85,10 @@ form{
     margin: 5px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #account{
     margin: 10px;
 }
